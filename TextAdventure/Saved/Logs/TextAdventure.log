@@ -1,4 +1,4 @@
-﻿Log file open, 08/17/18 20:02:42
+﻿Log file open, 08/19/18 11:15:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TextAdventure
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.934820
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.748438
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.119s to configure plugins.
+LogStreaming: Display: Took  0.225s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -118,12 +118,12 @@ LogInit: Build: ++UE4+Release-4.20-CL-4233996
 LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: AMD Ryzen 7 1700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1080
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 980 Ti
 LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -150,902 +150,539 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.08.18-00.02.43:534][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.18-00.02.43:535][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.08.18-00.02.43:553][  0]LogHAL: Display: Platform has ~ 16 GB [17129926656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.08.18-00.02.43:553][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.08.18-00.02.43:554][  0]LogInit: Going up to parent DeviceProfile []
-[2018.08.18-00.02.43:559][  0]LogInit: Computer: JESSEGAMEMAKER
-[2018.08.18-00.02.43:559][  0]LogInit: User: Jesse
-[2018.08.18-00.02.43:559][  0]LogInit: CPU Page size=4096, Cores=8
-[2018.08.18-00.02.43:559][  0]LogInit: High frequency timer resolution =3.320307 MHz
-[2018.08.18-00.02.43:559][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.08.18-00.02.43:559][  0]LogMemory: Platform Memory Stats for Windows
-[2018.08.18-00.02.43:559][  0]LogMemory: Process Physical Memory: 101.05 MB used, 101.05 MB peak
-[2018.08.18-00.02.43:559][  0]LogMemory: Process Virtual Memory: 92.65 MB used, 92.65 MB peak
-[2018.08.18-00.02.43:559][  0]LogMemory: Physical Memory: 7137.88 MB used,  9198.50 MB free, 16336.37 MB total
-[2018.08.18-00.02.43:559][  0]LogMemory: Virtual Memory: 4679.63 MB used,  9198.50 MB free, 134217728.00 MB total
-[2018.08.18-00.02.43:760][  0]LogInit: Using OS detected language (en-US).
-[2018.08.18-00.02.43:760][  0]LogInit: Using OS detected locale (en-US).
-[2018.08.18-00.02.43:762][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.08.18-00.02.44:189][  0]LogStreaming: Display: Took  0.430s to InitEngineTextLocalization.
-[2018.08.18-00.02.44:190][  0]LogInit: Setting process to per monitor DPI aware
-[2018.08.18-00.02.44:283][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.08.18-00.02.44:283][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.08.18-00.02.46:301][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.18-00.02.46:301][  0]LogD3D11RHI: D3D11 adapters:
-[2018.08.18-00.02.46:354][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.08.18-00.02.46:354][  0]LogD3D11RHI:       8079/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.08.18-00.02.46:356][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.08.18-00.02.46:356][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.08.18-00.02.46:356][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.08.18-00.02.46:366][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.08.18-00.02.46:366][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.08.18-00.02.46:366][  0]LogWindows: EnumDisplayDevices:
-[2018.08.18-00.02.46:366][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.08.18-00.02.46:366][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2018.08.18-00.02.46:366][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.08.18-00.02.46:367][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.08.18-00.02.46:367][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.08.18-00.02.46:367][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.08.18-00.02.46:367][  0]LogD3D11RHI:   Driver Version: 390.77 (internal:23.21.13.9077, unified:390.77)
-[2018.08.18-00.02.46:367][  0]LogD3D11RHI:      Driver Date: 1-23-2018
-[2018.08.18-00.02.46:367][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2018.08.18-00.02.46:400][  0]LogD3D11RHI: Async texture creation enabled
-[2018.08.18-00.02.46:425][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.08.18-00.02.46:478][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Intermediate/Shaders/WorkingDirectory/4032/).
-[2018.08.18-00.02.46:478][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jesse/AppData/Local/Temp/UnrealShaderWorkingDir/6CFBC7AB4F00250BA43692B43CCBC3E5/'.
-[2018.08.18-00.02.47:070][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.08.18-00.02.47:095][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.08.18-00.02.47:120][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.08.18-00.02.47:146][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.08.18-00.02.47:176][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.08.18-00.02.47:202][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.08.18-00.02.47:228][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.08.18-00.02.47:253][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.08.18-00.02.47:271][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:379][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.18-00.02.47:391][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.08.18-00.02.47:493][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.18-00.02.47:493][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.18-00.02.47:529][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.18-00.02.47:529][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.18-00.02.47:553][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.08.18-00.02.47:577][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.08.18-00.02.47:601][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.08.18-00.02.47:632][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.08.18-00.02.47:652][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.08.18-00.02.47:652][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.08.18-00.02.47:950][  0]LogXGEController: Cleaning working directory: C:/Users/Jesse/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.08.18-00.02.47:950][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.08.18-00.02.47:950][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.08.18-00.02.47:950][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.08.18-00.02.49:720][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.08.18-00.02.50:014][  0]LogDerivedDataCache: Loaded boot cache 0.29s 84MB C:/Users/Jesse/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.18-00.02.50:015][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jesse/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.08.18-00.02.50:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.08.18-00.02.50:015][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.08.18-00.02.50:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.08.18-00.02.50:015][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.08.18-00.02.50:037][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.08.18-00.02.50:050][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jesse/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.08.18-00.02.50:050][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.08.18-00.02.50:050][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.08.18-00.02.50:069][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.08.18-00.02.50:074][  0]LogSlate: Using FreeType 2.6.0
-[2018.08.18-00.02.50:089][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.18-00.02.50:307][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
-[2018.08.18-00.02.50:709][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.18-00.02.51:059][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.08.18-00.02.51:097][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.08.18-00.02.51:097][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.08.18-00.02.51:098][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.08.18-00.02.51:098][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.08.18-00.02.51:148][  0]LogNetVersion: TextAdventure 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4005765857)
-[2018.08.18-00.02.52:150][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.118876 seconds
-[2018.08.18-00.02.52:158][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.08.18-00.02.52:158][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.08.18-00.02.52:158][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.08.18-00.02.55:353][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.08.18-00.02.55:381][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.08.18-00.02.55:808][  0]SourceControl: Source control is disabled
-[2018.08.18-00.02.55:809][  0]SourceControl: Source control is disabled
-[2018.08.18-00.02.55:830][  0]SourceControl: Source control is disabled
-[2018.08.18-00.02.55:844][  0]SourceControl: Source control is disabled
-[2018.08.18-00.02.56:477][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.08.18-00.02.56:593][  0]LogOcInput: OculusInput pre-init called
-[2018.08.18-00.02.56:729][  0]LogEngine: Initializing Engine...
-[2018.08.18-00.02.56:730][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.18-00.02.56:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.18-00.02.56:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.18-00.02.56:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.18-00.02.56:733][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.18-00.02.56:915][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.08.18-00.02.56:961][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.08.18-00.02.56:976][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-00.02.56:992][  0]LogInit: FAudioDevice initialized.
-[2018.08.18-00.02.56:992][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.08.18-00.02.57:091][  0]LogDerivedDataCache: Saved boot cache 0.10s 84MB C:/Users/Jesse/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.18-00.02.57:095][  0]LogInit: Texture streaming: Enabled
-[2018.08.18-00.02.57:155][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.08.18-00.02.57:155][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={687B35CC-4DF9-FA07-5628-50828FA6B631}
-[2018.08.18-00.02.57:155][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={A7CFE9BA-42B2-B044-B953-E280E2229B39}
-[2018.08.18-00.02.57:188][  0]LogInit: Transaction tracking system initialized
-[2018.08.18-00.02.57:280][  0]BlueprintLog: New page: Editor Load
-[2018.08.18-00.02.57:667][  0]LocalizationService: Localization service is disabled
-[2018.08.18-00.02.58:153][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.08.18-00.02.58:153][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/' took 0.02s
-[2018.08.18-00.02.58:153][  0]LogCook: Display: Mobile HDR setting 1
-[2018.08.18-00.02.58:154][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.08.18-00.02.58:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.18-00.02.58:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.18-00.02.58:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.18-00.02.58:154][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.18-00.02.58:685][  0]SourceControl: Source control is disabled
-[2018.08.18-00.02.58:685][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.08.18-00.02.58:686][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.08.18-00.02.58:686][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.08.18-00.02.58:748][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.026ms to complete.
-[2018.08.18-00.02.58:748][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.063
-[2018.08.18-00.02.58:908][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-00.02.58:917][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-00.02.58:925][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-00.02.58:933][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-00.02.58:954][  0]LogCollectionManager: Loaded 0 collections in 0.001865 seconds
-[2018.08.18-00.02.59:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Collections/' took 0.01s
-[2018.08.18-00.02.59:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/Developers/Jesse/Collections/' took 0.01s
-[2018.08.18-00.02.59:006][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/Collections/' took 0.01s
-[2018.08.18-00.02.59:006][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.08.18-00.02.59:016][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2572 classes and 603 folders.
-[2018.08.18-00.02.59:024][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.08.18-00.02.59:388][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.08.18-00.02.59:409][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.08.18-00.02.59:451][  0]LogSlate: Took 0.005339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.08.18-00.02.59:458][  0]LogSlate: Took 0.005037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.08.18-00.02.59:470][  0]LogSlate: Took 0.005456 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.08.18-00.02.59:576][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
-[2018.08.18-00.02.59:731][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.08.18-00.02.59:731][  0]LogLoad: (Engine Initialization) Total time: 21.43 seconds
-[2018.08.18-00.02.59:731][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.08.18-00.02.59:769][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.08.18-00.02.59:813][  0]LogSlate: Took 0.004929 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.08.18-00.02.59:841][  1]LogAssetRegistry: Asset discovery search completed in 9.5568 seconds
-[2018.08.18-00.02.59:842][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.08.18-00.02.59:842][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
-[2018.08.18-00.03.00:764][107]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.08.18-00.03.04:852][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-00.03.04:997][609]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
-[2018.08.18-00.03.05:050][609]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.08.18-00.03.05:050][609]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.08.18-00.03.05:050][609]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.08.18-00.03.05:050][609]LogStaticMesh: Building static mesh wall_north...
-[2018.08.18-00.03.05:072][609]LogStaticMesh: Built static mesh [0.02s] /Game/TextAdventure/Models/wall_north.wall_north
-[2018.08.18-00.03.05:077][609]LogStaticMesh: Building static mesh wall_north_solid...
-[2018.08.18-00.03.05:085][609]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.18-00.03.05:090][609]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/wall_north_solid.wall_north_solid
-[2018.08.18-00.03.05:109][609]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.18-00.03.05:112][609]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TextAdventure/Core/BP_RoomBuilder.BP_RoomBuilder
-[2018.08.18-00.03.05:699][609]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.08.18-00.03.06:608][609]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TextAdventure/Models/BP_RoomPart.BP_RoomPart
-[2018.08.18-00.03.06:956][609]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/TextAdventure/Models/DS_RoomData.DS_RoomData
-[2018.08.18-00.03.07:047][609]LogAssetEditorManager: Opening Asset editor for DataTable /Game/TextAdventure/Models/DT_RoomData.DT_RoomData
-[2018.08.18-00.03.07:125][609]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/TextAdventure/Models/ERoomTypes.ERoomTypes
-[2018.08.18-00.03.16:987][357]LogEditorViewport: Clicking Background
-[2018.08.18-00.04.02:393][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-00.04.02:496][809]LogStaticMesh: Building static mesh wall_east...
-[2018.08.18-00.04.02:511][809]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/wall_east.wall_east
-[2018.08.18-00.04.08:706][541]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/TextAdventure/Models/wall_east.wall_east
-[2018.08.18-00.04.09:275][541]LogSlate: Took 0.004282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.08.18-00.04.19:296][727]LogMetaData: Removing '/Game/TextAdventure/Models/SM_wall_east.SM_wall_east' ref from Metadata '/Game/TextAdventure/Models/wall_east.PackageMetaData'
-[2018.08.18-00.04.19:342][727]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_eastA6A510EC4E61452A81C7E6856A8CC746.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_east.uasset'
-[2018.08.18-00.04.28:954][839]LogMetaData: Removing '/Game/TextAdventure/Models/SM_wall_north.SM_wall_north' ref from Metadata '/Game/TextAdventure/Models/wall_north.PackageMetaData'
-[2018.08.18-00.04.29:000][839]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_north70D2D3BF4F66BC9A680E489AD79773FB.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_north.uasset'
-[2018.08.18-00.04.29:236][839]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomBuilderFA880A7C455C2A77091C42BC9EB153F2.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Core/BP_RoomBuilder.uasset'
-[2018.08.18-00.04.43:141][492]LogMetaData: Removing '/Game/TextAdventure/Models/SM_wall_north_solid.SM_wall_north_solid' ref from Metadata '/Game/TextAdventure/Models/wall_north_solid.PackageMetaData'
-[2018.08.18-00.04.43:183][492]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_north_solid99B4231F4019BCF15DD0A28650780C62.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_north_solid.uasset'
-[2018.08.18-00.04.43:414][492]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomBuilder4A26389D45D5CE051E99ABA1F76B81B2.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Core/BP_RoomBuilder.uasset'
-[2018.08.18-00.04.44:777][650]LogStaticMesh: Building static mesh wall_south...
-[2018.08.18-00.04.44:790][650]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/wall_south.wall_south
-[2018.08.18-00.04.49:987][264]LogMetaData: Removing '/Game/TextAdventure/Models/SM_wall_south.SM_wall_south' ref from Metadata '/Game/TextAdventure/Models/wall_south.PackageMetaData'
-[2018.08.18-00.04.50:030][264]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_south511FBD224215F2F91055CFBA1C9CDC24.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_south.uasset'
-[2018.08.18-00.04.51:621][425]LogStaticMesh: Building static mesh wall_west...
-[2018.08.18-00.04.51:633][425]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/wall_west.wall_west
-[2018.08.18-00.04.57:707][144]LogMetaData: Removing '/Game/TextAdventure/Models/SM_wall_west.SM_wall_west' ref from Metadata '/Game/TextAdventure/Models/wall_west.PackageMetaData'
-[2018.08.18-00.04.57:750][144]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_west4C2042974596E1484A2F5889153B7C56.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_west.uasset'
-[2018.08.18-00.05.59:416][477]LogMetaData: Removing '/Game/TextAdventure/Core/ERoomTypes.ERoomTypes' ref from Metadata '/Game/TextAdventure/Models/ERoomTypes.PackageMetaData'
-[2018.08.18-00.05.59:429][477]LogMetaData: Removing '/Game/TextAdventure/Core/DS_RoomData.DS_RoomData' ref from Metadata '/Game/TextAdventure/Models/DS_RoomData.PackageMetaData'
-[2018.08.18-00.05.59:429][477]LogMetaData: Removing '/Game/TextAdventure/Core/DS_RoomData.DS_RoomData:ItemInRoom_12_0C2FCD3542A82ED5C5CF40904021FA77' ref from Metadata '/Game/TextAdventure/Models/DS_RoomData.PackageMetaData'
-[2018.08.18-00.05.59:429][477]LogMetaData: Removing '/Game/TextAdventure/Core/DS_RoomData.DS_RoomData:NorthDoor_15_2CA3227644C794C95C7AB6ACBAAF9E69' ref from Metadata '/Game/TextAdventure/Models/DS_RoomData.PackageMetaData'
-[2018.08.18-00.05.59:429][477]LogMetaData: Removing '/Game/TextAdventure/Core/DS_RoomData.DS_RoomData:EastDoor_17_4429287645F1C1658A8DC396EAB6A799' ref from Metadata '/Game/TextAdventure/Models/DS_RoomData.PackageMetaData'
-[2018.08.18-00.05.59:429][477]LogMetaData: Removing '/Game/TextAdventure/Core/DS_RoomData.DS_RoomData:SouthDoor_19_FE1644ED4FA64DED418D4EA217BAEDDF' ref from Metadata '/Game/TextAdventure/Models/DS_RoomData.PackageMetaData'
-[2018.08.18-00.05.59:429][477]LogMetaData: Removing '/Game/TextAdventure/Core/DS_RoomData.DS_RoomData:WestDoor_21_9BCE1B2B44132AE8600A138C152D24C3' ref from Metadata '/Game/TextAdventure/Models/DS_RoomData.PackageMetaData'
-[2018.08.18-00.05.59:429][477]LogMetaData: Removing '/Game/TextAdventure/Core/DS_RoomData.DS_RoomData:BasicDescription_27_4460027249C0A85FA81A54BA7DBDB8C6' ref from Metadata '/Game/TextAdventure/Models/DS_RoomData.PackageMetaData'
-[2018.08.18-00.05.59:429][477]LogMetaData: Removing '/Game/TextAdventure/Core/DS_RoomData.DS_RoomData:SearchStrings_30_5A36222D48EBA9D21A71C2BA20C8BCB9' ref from Metadata '/Game/TextAdventure/Models/DS_RoomData.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.BP_RoomPart:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.BP_RoomPart_C' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.BP_RoomPart:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.BP_RoomPart:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.BP_RoomPart:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.SKEL_BP_RoomPart_C:ReceiveBeginPlay' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.SKEL_BP_RoomPart_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.SKEL_BP_RoomPart_C:ReceiveTick' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.SKEL_BP_RoomPart_C:IncomingMesh' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.SKEL_BP_RoomPart_C:UserConstructionScript' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.SKEL_BP_RoomPart_C' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.BP_RoomPart_C:IncomingMesh' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:436][477]LogMetaData: Removing '/Game/TextAdventure/Core/BP_RoomPart.BP_RoomPart_C:UserConstructionScript' ref from Metadata '/Game/TextAdventure/Models/BP_RoomPart.PackageMetaData'
-[2018.08.18-00.05.59:461][477]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/ERoomTypesC0A675784A87E6B5F1ABEE987A0BA49A.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Core/ERoomTypes.uasset'
-[2018.08.18-00.05.59:474][477]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/DT_RoomData89D78D6D46E46F358DF06199AB17FB24.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Core/DT_RoomData.uasset'
-[2018.08.18-00.05.59:487][477]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/DS_RoomData675AEB444FB4499E125649BCFC8C3F07.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Core/DS_RoomData.uasset'
-[2018.08.18-00.05.59:506][477]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomPartF55E33AF405823E86E643C8E3F1912FE.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Core/BP_RoomPart.uasset'
-[2018.08.18-00.06.00:033][477]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomBuilderBA977ADE4ED581E5C940848B66F16935.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Core/BP_RoomBuilder.uasset'
-[2018.08.18-00.06.09:633][602]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-00.06.09:640][602]LogAssetEditorManager: Opening Asset editor for World /Game/TextAdventure/Maps/Adventure.Adventure
-[2018.08.18-00.06.09:678][602]Cmd: MAP LOAD FILE="../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Maps/Adventure.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.08.18-00.06.09:678][602]LightingResults: New page: Lighting Build
-[2018.08.18-00.06.09:682][602]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
-[2018.08.18-00.06.09:683][602]LoadErrors: New page: Loading map: Adventure.umap
-[2018.08.18-00.06.09:684][602]MapCheck: New page: Map Check
-[2018.08.18-00.06.09:684][602]LightingResults: New page: Lighting Build
-[2018.08.18-00.06.09:727][602]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.08.18-00.06.09:787][602]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.08.18-00.06.09:863][602]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.197ms to complete.
-[2018.08.18-00.06.09:865][602]LogFileHelpers: Loading map 'Adventure' took 0.188
-[2018.08.18-16.02.20:693][886]LogSlate: Took 0.004669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.08.18-16.02.29:271][874]LogStaticMesh: Building static mesh floor...
-[2018.08.18-16.02.29:285][874]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/floor.floor
-[2018.08.18-16.03.08:183][332]LogMetaData: Removing '/Game/TextAdventure/Models/SM_floor.SM_floor' ref from Metadata '/Game/TextAdventure/Models/floor.PackageMetaData'
-[2018.08.18-16.03.08:226][332]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_floorBE774E194EB82B00EFBC22A8DF0669F5.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_floor.uasset'
-[2018.08.18-16.04.37:483][760]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-16.04.37:515][760]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.08.18-16.04.37:519][760]LogPlayLevel: [PlayLevel] Compiling BP_RoomBuilder before play...
-[2018.08.18-16.04.37:691][760]LogPlayLevel: PlayLevel: Blueprint regeneration took 176 ms (1 blueprints)
-[2018.08.18-16.04.37:706][760]PIE: New page: PIE session: Adventure (Aug 18, 2018, 8:04:37 AM)
-[2018.08.18-16.04.37:706][760]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-16.04.37:707][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001522s)
-[2018.08.18-16.04.37:708][760]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-16.04.37:708][760]LogPlayLevel: PIE: World Init took: (0.000653s)
-[2018.08.18-16.04.37:708][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.002507s)
-[2018.08.18-16.04.37:746][760]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-16.04.37:758][760]LogInit: FAudioDevice initialized.
-[2018.08.18-16.04.37:806][760]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-16.04.37:808][760]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-12.04.37
-[2018.08.18-16.04.37:808][760]LogWorld: Bringing up level for play took: 0.000522
-[2018.08.18-16.04.37:857][760]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
-[2018.08.18-16.04.37:859][760]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.583
-[2018.08.18-16.04.40:137][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.40:167][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-16.04.40:205][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.40:242][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2018.08.18-16.04.41:578][167]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-16.04.41:602][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-16.04.41:602][167]PIE: New page: PIE session: Adventure (Aug 18, 2018, 8:04:41 AM)
-[2018.08.18-16.04.41:602][167]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-16.04.41:603][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001081s)
-[2018.08.18-16.04.41:603][167]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-16.04.41:604][167]LogPlayLevel: PIE: World Init took: (0.000589s)
-[2018.08.18-16.04.41:604][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001766s)
-[2018.08.18-16.04.41:639][167]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-16.04.41:650][167]LogInit: FAudioDevice initialized.
-[2018.08.18-16.04.41:680][167]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-16.04.41:680][167]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-12.04.41
-[2018.08.18-16.04.41:681][167]LogWorld: Bringing up level for play took: 0.000528
-[2018.08.18-16.04.41:693][167]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.75
-[2018.08.18-16.04.43:093][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.43:130][320]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-16.04.43:168][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.43:218][321]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2018.08.18-16.04.44:039][413]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-16.04.44:058][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-16.04.44:058][413]PIE: New page: PIE session: Adventure (Aug 18, 2018, 8:04:44 AM)
-[2018.08.18-16.04.44:058][413]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-16.04.44:060][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001120s)
-[2018.08.18-16.04.44:060][413]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-16.04.44:060][413]LogPlayLevel: PIE: World Init took: (0.000600s)
-[2018.08.18-16.04.44:060][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001820s)
-[2018.08.18-16.04.44:098][413]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-16.04.44:111][413]LogInit: FAudioDevice initialized.
-[2018.08.18-16.04.44:142][413]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-16.04.44:143][413]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-12.04.44
-[2018.08.18-16.04.44:143][413]LogWorld: Bringing up level for play took: 0.000542
-[2018.08.18-16.04.44:156][413]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.286
-[2018.08.18-16.04.45:010][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.45:047][509]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-16.04.45:086][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.45:136][510]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2018.08.18-16.04.45:529][554]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-16.04.45:547][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-16.04.45:547][554]PIE: New page: PIE session: Adventure (Aug 18, 2018, 8:04:45 AM)
-[2018.08.18-16.04.45:548][554]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-16.04.45:549][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001095s)
-[2018.08.18-16.04.45:549][554]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-16.04.45:549][554]LogPlayLevel: PIE: World Init took: (0.000580s)
-[2018.08.18-16.04.45:549][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001773s)
-[2018.08.18-16.04.45:585][554]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-16.04.45:593][554]LogInit: FAudioDevice initialized.
-[2018.08.18-16.04.45:625][554]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-16.04.45:626][554]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-12.04.45
-[2018.08.18-16.04.45:626][554]LogWorld: Bringing up level for play took: 0.000540
-[2018.08.18-16.04.45:639][554]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.804
-[2018.08.18-16.04.46:134][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.46:171][608]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-16.04.46:211][608]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.46:262][609]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2018.08.18-16.04.46:701][658]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-16.04.46:721][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-16.04.46:721][658]PIE: New page: PIE session: Adventure (Aug 18, 2018, 8:04:46 AM)
-[2018.08.18-16.04.46:721][658]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-16.04.46:722][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001125s)
-[2018.08.18-16.04.46:722][658]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-16.04.46:723][658]LogPlayLevel: PIE: World Init took: (0.000597s)
-[2018.08.18-16.04.46:723][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001819s)
-[2018.08.18-16.04.46:760][658]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-16.04.46:769][658]LogInit: FAudioDevice initialized.
-[2018.08.18-16.04.46:803][658]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-16.04.46:803][658]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-12.04.46
-[2018.08.18-16.04.46:804][658]LogWorld: Bringing up level for play took: 0.000432
-[2018.08.18-16.04.46:816][658]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure 0.373
-[2018.08.18-16.04.47:308][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.47:344][713]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-16.04.47:382][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.47:433][714]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2018.08.18-16.04.47:924][768]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-16.04.47:942][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-16.04.47:943][768]PIE: New page: PIE session: Adventure (Aug 18, 2018, 8:04:47 AM)
-[2018.08.18-16.04.47:943][768]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-16.04.47:944][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001049s)
-[2018.08.18-16.04.47:944][768]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-16.04.47:944][768]LogPlayLevel: PIE: World Init took: (0.000578s)
-[2018.08.18-16.04.47:944][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001725s)
-[2018.08.18-16.04.47:981][768]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-16.04.47:990][768]LogInit: FAudioDevice initialized.
-[2018.08.18-16.04.48:022][768]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-16.04.48:023][768]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-12.04.48
-[2018.08.18-16.04.48:023][768]LogWorld: Bringing up level for play took: 0.000543
-[2018.08.18-16.04.48:036][768]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.406
-[2018.08.18-16.04.48:631][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.48:666][835]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-16.04.48:702][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.48:754][836]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2018.08.18-16.04.49:137][878]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-16.04.49:155][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-16.04.49:155][878]PIE: New page: PIE session: Adventure (Aug 18, 2018, 8:04:49 AM)
-[2018.08.18-16.04.49:156][878]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-16.04.49:157][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001032s)
-[2018.08.18-16.04.49:157][878]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-16.04.49:157][878]LogPlayLevel: PIE: World Init took: (0.000585s)
-[2018.08.18-16.04.49:157][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001712s)
-[2018.08.18-16.04.49:194][878]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-16.04.49:203][878]LogInit: FAudioDevice initialized.
-[2018.08.18-16.04.49:236][878]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-16.04.49:236][878]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-12.04.49
-[2018.08.18-16.04.49:237][878]LogWorld: Bringing up level for play took: 0.000415
-[2018.08.18-16.04.49:249][878]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure 0.806
-[2018.08.18-16.04.49:712][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.49:751][929]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-16.04.49:789][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-16.04.49:839][930]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2018.08.18-16.05.29:852][ 88]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Adventure_Auto1D350F2CE43D6B7CD5F1E9CB99B2B0FAE.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Maps/Adventure_Auto1.umap'
-[2018.08.18-16.05.29:859][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TextAdventure/Maps/Adventure' took 0.065
-[2018.08.18-16.05.29:859][ 88]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.065
-[2018.08.18-16.08.18:582][321]LogEditorTransaction: Undo Rename Node
-[2018.08.18-16.08.22:219][737]LogRenderer: Reallocating scene render targets to support 1208x1216 Format 10 NumSamples 1 (Frame:1).
-[2018.08.18-16.08.41:780][999]LogEditorTransaction: Undo Collapses selected nodes into a single node
-[2018.08.18-16.08.42:366][ 62]LogEditorTransaction: Undo Delete current selection
-[2018.08.18-16.08.43:535][200]LogEditorTransaction: Undo Move Node
-[2018.08.18-16.08.43:821][232]LogEditorTransaction: Undo Move Node
-[2018.08.18-16.08.44:440][304]LogEditorTransaction: Undo Move Node
-[2018.08.18-16.11.56:680][638]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/TextAdventure/Models/SM_wall_east_solid.SM_wall_east_solid
-[2018.08.18-16.11.56:978][639]LogRenderer: Reallocating scene render targets to support 1208x1236 Format 10 NumSamples 1 (Frame:1).
-[2018.08.18-16.12.14:038][660]LogRenderer: Reallocating scene render targets to support 1912x1284 Format 10 NumSamples 1 (Frame:2017).
-[2018.08.18-16.12.31:140][660]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/TextAdventure/Models/SM_wall_north.SM_wall_north
-[2018.08.18-16.12.38:982][509]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/TextAdventure/Models/SM_wall_north.SM_wall_north
-[2018.08.18-16.14.59:497][687]LogSlate: Window 'Delete Assets' being destroyed
-[2018.08.18-16.15.47:440][675]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Adventure_Auto2A7668FF74CDB296872E7EAB95668BFAD.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Maps/Adventure_Auto2.umap'
-[2018.08.18-16.15.47:443][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TextAdventure/Maps/Adventure' took 0.060
-[2018.08.18-16.15.47:443][675]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.060
-[2018.08.18-16.15.47:444][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TextAdventure/Core/BP_RoomBuilder] ([1] browsable assets)...
-[2018.08.18-16.15.47:444][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/TextAdventure/Core/BP_RoomBuilder]
-[2018.08.18-16.15.47:476][675]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomBuilder_Auto2B58260BF45C15E6367F3448A019F3DF7.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Core/BP_RoomBuilder_Auto2.uasset'
-[2018.08.18-16.15.47:477][675]LogFileHelpers: Auto-saving content packages took 0.033
-[2018.08.18-16.21.25:348][254]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.08.18-16.21.40:174][903]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TextAdventure/Models/SM_wall_east_solid.SM_wall_east_solid
-[2018.08.18-16.23.32:877][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-16.24.09:236][322]LogActorFactory: Actor Factory created SM_wall_east
-[2018.08.18-16.24.10:225][422]LogActorFactory: Actor Factory created SM_wall_east
-[2018.08.18-16.24.13:372][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-16.24.22:461][500]Cmd: DELETE
-[2018.08.18-16.24.22:461][500]Cmd: ACTOR DELETE
-[2018.08.18-16.24.22:465][500]LogEditorActor: Deleted Actor: SM_wall_east_solid_C
-[2018.08.18-16.24.22:504][500]LogEditorActor: Deleted 1 Actors (0.041 secs)
-[2018.08.18-16.24.24:517][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-16.25.02:997][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-16.25.32:824][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-16.26.26:006][ 40]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Adventure_Auto3B0862EC04F8971FB67CF079876814B21.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Maps/Adventure_Auto3.umap'
-[2018.08.18-16.26.26:013][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TextAdventure/Maps/Adventure' took 0.063
-[2018.08.18-16.26.26:013][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
-[2018.08.18-16.26.26:014][ 40]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TextAdventure/Models/SM_wall_east_solid] ([1] browsable assets)...
-[2018.08.18-16.26.26:023][ 40]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TextAdventure/Models/SM_wall_east_solid.SM_wall_east_solid]
-[2018.08.18-16.26.26:023][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/TextAdventure/Models/SM_wall_east_solid]
-[2018.08.18-16.26.26:048][ 40]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_east_solid_Auto35C3DA1A046938BE204660392C22C7122.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Models/SM_wall_east_solid_Auto3.uasset'
-[2018.08.18-16.26.26:049][ 40]LogFileHelpers: Auto-saving content packages took 0.036
-[2018.08.18-16.26.53:568][434]BlueprintLog: New page: Compile SM_wall_east_solid
-[2018.08.18-16.26.55:524][579]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_east_solid4FB4D33845934D1B364F538A3B765B86.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_east_solid.uasset'
-[2018.08.18-16.27.05:425][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-16.27.15:405][ 55]LogSlate: Window 'Delete Assets' being destroyed
-[2018.08.18-16.27.18:727][336]LogEditorActor: Deleted Actor: SM_wall_east_solid_C
-[2018.08.18-16.27.18:764][336]LogEditorActor: Deleted 1 Actors (0.038 secs)
-[2018.08.18-16.30.37:715][414]BlueprintLog: New page: Compile SM_wall_east_solid
-[2018.08.18-16.30.38:507][469]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_east_solid5BFD2F95480D6ED96CAB1B8AF5D37FB6.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_east_solid.uasset'
-[2018.08.18-16.31.19:845][275]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TextAdventure/Models/SM_wall_east_solid.SM_wall_east_solid
-[2018.08.18-16.31.30:131][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-16.32.37:663][218]LogActorFactory: Actor Factory created Cube
-[2018.08.18-16.32.39:177][384]LogActorFactory: Actor Factory created Cube
-[2018.08.18-16.33.00:600][404]Cmd: DELETE
-[2018.08.18-16.33.00:600][404]Cmd: ACTOR DELETE
-[2018.08.18-16.33.00:602][404]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.08.18-16.33.00:636][404]LogEditorActor: Deleted 1 Actors (0.036 secs)
-[2018.08.18-16.33.02:961][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-16.33.38:283][317]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TextAdventure/Core/BP_RoomPart.BP_RoomPart
-[2018.08.18-16.36.34:484][333]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Adventure_Auto4EED363684AFC64EAA9ADBEB51A30A91A.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Maps/Adventure_Auto4.umap'
-[2018.08.18-16.36.34:487][333]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TextAdventure/Maps/Adventure' took 0.064
-[2018.08.18-16.36.34:487][333]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.064
-[2018.08.18-17.21.07:520][932]LogEditorFactories: Performing atomic reimport of [C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/floor.fbx]
-[2018.08.18-17.21.07:555][932]LogFbx: Loading FBX Scene from C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/floor.fbx
-[2018.08.18-17.21.07:565][932]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.21.07:571][932]LogFbx: Warning: Triangulating static mesh floor
-[2018.08.18-17.21.07:587][932]LogStaticMesh: Building static mesh SM_floor...
-[2018.08.18-17.21.07:588][932]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/SM_floor.SM_floor
-[2018.08.18-17.21.07:600][932]LogEditorFactories: -- imported successfully
-[2018.08.18-17.21.07:613][932]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.21.11:608][377]LogEditorFactories: Performing atomic reimport of [C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_east.fbx]
-[2018.08.18-17.21.11:632][377]LogFbx: Loading FBX Scene from C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_east.fbx
-[2018.08.18-17.21.11:639][377]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.21.11:640][377]LogFbx: Warning: Triangulating static mesh wall_east
-[2018.08.18-17.21.11:654][377]LogStaticMesh: Building static mesh SM_wall_east...
-[2018.08.18-17.21.11:656][377]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/SM_wall_east.SM_wall_east
-[2018.08.18-17.21.11:665][377]LogEditorFactories: -- imported successfully
-[2018.08.18-17.21.11:675][377]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.21.22:562][448]LogSlate: Window 'Delete Assets' being destroyed
-[2018.08.18-17.21.22:685][448]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.08.18-17.21.22:884][448]LogSlate: Window 'BP_RoomPart' being destroyed
-[2018.08.18-17.21.22:888][448]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.08.18-17.21.26:707][777]LogEditorFactories: Performing atomic reimport of [C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_north.fbx]
-[2018.08.18-17.21.26:743][777]LogFbx: Loading FBX Scene from C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_north.fbx
-[2018.08.18-17.21.26:750][777]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.21.26:751][777]LogFbx: Warning: Triangulating static mesh wall_north
-[2018.08.18-17.21.26:765][777]LogStaticMesh: Building static mesh SM_wall_north...
-[2018.08.18-17.21.26:766][777]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/SM_wall_north.SM_wall_north
-[2018.08.18-17.21.26:768][777]LogStaticMesh: Warning: SM_wall_north has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2018.08.18-17.21.26:768][777]LogStaticMesh: Warning: SM_wall_north has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2018.08.18-17.21.26:776][777]LogEditorFactories: -- imported successfully
-[2018.08.18-17.21.26:786][777]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.21.26:786][777]FBXImport: Warning: SM_wall_north has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2018.08.18-17.21.26:786][777]FBXImport: Warning: SM_wall_north has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2018.08.18-17.21.30:272][187]LogEditorFactories: Performing atomic reimport of [C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_north_solid.fbx]
-[2018.08.18-17.21.30:334][187]LogFbx: Loading FBX Scene from C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_north_solid.fbx
-[2018.08.18-17.21.30:341][187]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.21.30:342][187]LogFbx: Warning: Triangulating static mesh wall_north_solid
-[2018.08.18-17.21.30:356][187]LogStaticMesh: Building static mesh SM_wall_north_solid...
-[2018.08.18-17.21.30:358][187]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/SM_wall_north_solid.SM_wall_north_solid
-[2018.08.18-17.21.30:366][187]LogEditorFactories: -- imported successfully
-[2018.08.18-17.21.30:376][187]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.21.32:811][471]LogEditorFactories: Performing atomic reimport of [C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_south.fbx]
-[2018.08.18-17.21.32:848][471]LogFbx: Loading FBX Scene from C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_south.fbx
-[2018.08.18-17.21.32:854][471]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.21.32:855][471]LogFbx: Warning: Triangulating static mesh wall_south
-[2018.08.18-17.21.32:869][471]LogStaticMesh: Building static mesh SM_wall_south...
-[2018.08.18-17.21.32:870][471]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/SM_wall_south.SM_wall_south
-[2018.08.18-17.21.32:872][471]LogStaticMesh: Warning: SM_wall_south has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
-[2018.08.18-17.21.32:872][471]LogStaticMesh: Warning: SM_wall_south has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
-[2018.08.18-17.21.32:881][471]LogEditorFactories: -- imported successfully
-[2018.08.18-17.21.32:890][471]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.21.32:890][471]FBXImport: Warning: SM_wall_south has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
-[2018.08.18-17.21.32:890][471]FBXImport: Warning: SM_wall_south has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
-[2018.08.18-17.21.34:937][710]LogEditorFactories: Performing atomic reimport of [C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_west.fbx]
-[2018.08.18-17.21.34:973][710]LogFbx: Loading FBX Scene from C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/wall_west.fbx
-[2018.08.18-17.21.34:980][710]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.21.34:980][710]LogFbx: Warning: Triangulating static mesh wall_west
-[2018.08.18-17.21.34:995][710]LogStaticMesh: Building static mesh SM_wall_west...
-[2018.08.18-17.21.34:996][710]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/SM_wall_west.SM_wall_west
-[2018.08.18-17.21.35:005][710]LogEditorFactories: -- imported successfully
-[2018.08.18-17.21.35:015][710]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.21.45:458][236]LogSlate: Window 'Save Content' being destroyed
-[2018.08.18-17.21.45:510][236]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomBuilderD6B1D782477BDD14318979A2739756C4.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Core/BP_RoomBuilder.uasset'
-[2018.08.18-17.21.46:986][236]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Adventure527D222641049C60E90C25828714B2F8.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Maps/Adventure.umap'
-[2018.08.18-17.21.47:023][236]LogFileHelpers: Saving map 'Adventure' took 1.503
-[2018.08.18-17.21.47:059][236]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_floor58E2A68D49C9452E84517CBF5A72C48B.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_floor.uasset'
-[2018.08.18-17.21.47:097][236]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_eastBC713F4C465BEC267AB7F2897D954986.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_east.uasset'
-[2018.08.18-17.21.47:138][236]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_north8F2FCBF2461242F9B3861AA62BDF29AA.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_north.uasset'
-[2018.08.18-17.21.47:175][236]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_north_solidE6EEAF144208CA67C3A3639722F27513.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_north_solid.uasset'
-[2018.08.18-17.21.47:215][236]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_south488277F84117822D9FCDD8837AB4F19A.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_south.uasset'
-[2018.08.18-17.21.47:254][236]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/SM_wall_westEA0969AB47780ECA74B1E28E184364EE.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/SM_wall_west.uasset'
-[2018.08.18-17.21.58:128][535]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.08.18-17.21.58:162][535]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2018.08.18-17.22.36:841][652]LogStaticMesh: Building static mesh floorDetail_flagstonesCentral...
-[2018.08.18-17.22.36:858][652]LogStaticMesh: Built static mesh [0.02s] /Game/TextAdventure/Models/floorDetail_flagstonesCentral.floorDetail_flagstonesCentral
-[2018.08.18-17.22.38:734][873]LogEditorFactories: Performing atomic reimport of [C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/floorDetail_flagstonesCentral.fbx]
-[2018.08.18-17.22.38:758][873]LogFbx: Loading FBX Scene from C:/Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/SourceFiles/floorDetail_flagstonesCentral.fbx
-[2018.08.18-17.22.38:765][873]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.22.38:769][873]LogFbx: Warning: Triangulating static mesh flagstones1
-[2018.08.18-17.22.38:783][873]LogStaticMesh: Building static mesh floorDetail_flagstonesCentral...
-[2018.08.18-17.22.38:785][873]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/floorDetail_flagstonesCentral.floorDetail_flagstonesCentral
-[2018.08.18-17.22.38:793][873]LogEditorFactories: -- imported successfully
-[2018.08.18-17.22.38:802][873]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.23.45:201][ 91]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TextAdventure/Core/BP_RoomBuilder.BP_RoomBuilder
-[2018.08.18-17.24.18:968][186]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/TextAdventure/Models/SM_wall_east_solid.SM_wall_east_solid
-[2018.08.18-17.24.19:265][187]LogRenderer: Reallocating scene render targets to support 1912x1964 Format 10 NumSamples 1 (Frame:1).
-[2018.08.18-17.27.37:066][647]LogSlate: Window 'Delete Assets' being destroyed
-[2018.08.18-17.27.37:188][647]LogSlate: Window 'BP_RoomBuilder' being destroyed
-[2018.08.18-17.27.48:802][ 42]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.08.18-17.28.01:975][599]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TextAdventure/Models/SM_wall_east_solid.SM_wall_east_solid
-[2018.08.18-17.28.34:389][720]LogSlate: Window 'Delete Assets' being destroyed
-[2018.08.18-17.28.34:392][720]LogSlate: Window 'SM_wall_east_solid*' being destroyed
-[2018.08.18-17.28.57:258][ 55]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jesse\Documents\gamedev\SVADProgrammingForArtists\TextAdventure\SourceFiles\wall_west_solid.fbx)
-[2018.08.18-17.28.57:267][ 55]LogFbx: Loading FBX Scene from C:\Users\Jesse\Documents\gamedev\SVADProgrammingForArtists\TextAdventure\SourceFiles\wall_west_solid.fbx
-[2018.08.18-17.28.57:274][ 55]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.29.00:418][ 55]LogSlate: Window 'FBX Import Options' being destroyed
-[2018.08.18-17.29.00:592][ 55]LogFbx: Warning: Triangulating static mesh wall_west_solid
-[2018.08.18-17.29.00:596][ 55]LogStaticMesh: Building static mesh wall_west_solid...
-[2018.08.18-17.29.00:598][ 55]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/wall_west_solid.wall_west_solid
-[2018.08.18-17.29.00:609][ 55]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.29.00:626][ 55]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jesse\Documents\gamedev\SVADProgrammingForArtists\TextAdventure\SourceFiles\wall_east_solid.fbx)
-[2018.08.18-17.29.00:635][ 55]LogFbx: Loading FBX Scene from C:\Users\Jesse\Documents\gamedev\SVADProgrammingForArtists\TextAdventure\SourceFiles\wall_east_solid.fbx
-[2018.08.18-17.29.00:642][ 55]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.29.00:644][ 55]LogFbx: Warning: Triangulating static mesh wall_east_solid
-[2018.08.18-17.29.00:645][ 55]LogStaticMesh: Building static mesh wall_east_solid...
-[2018.08.18-17.29.00:647][ 55]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/wall_east_solid.wall_east_solid
-[2018.08.18-17.29.00:657][ 55]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.29.00:661][ 55]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jesse\Documents\gamedev\SVADProgrammingForArtists\TextAdventure\SourceFiles\wall_south_solid.fbx)
-[2018.08.18-17.29.00:669][ 55]LogFbx: Loading FBX Scene from C:\Users\Jesse\Documents\gamedev\SVADProgrammingForArtists\TextAdventure\SourceFiles\wall_south_solid.fbx
-[2018.08.18-17.29.00:676][ 55]LogFbx: FBX Scene Loaded Succesfully
-[2018.08.18-17.29.00:678][ 55]LogFbx: Warning: Triangulating static mesh wall_south_solid
-[2018.08.18-17.29.00:679][ 55]LogStaticMesh: Building static mesh wall_south_solid...
-[2018.08.18-17.29.00:681][ 55]LogStaticMesh: Built static mesh [0.00s] /Game/TextAdventure/Models/wall_south_solid.wall_south_solid
-[2018.08.18-17.29.00:690][ 55]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.08.18-17.29.05:136][579]LogSlate: Window 'Message Log' being destroyed
-[2018.08.18-17.29.05:139][579]LogSlate: Window 'Message Log' being destroyed
-[2018.08.18-17.29.22:247][588]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TextAdventure/Core/BP_RoomBuilder.BP_RoomBuilder
-[2018.08.18-17.31.46:228][242]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.31.46:246][242]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.08.18-17.31.46:254][242]LogPlayLevel: [PlayLevel] Compiling BP_RoomBuilder before play...
-[2018.08.18-17.31.46:431][242]LogPlayLevel: PlayLevel: Blueprint regeneration took 183 ms (1 blueprints)
-[2018.08.18-17.31.46:431][242]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:31:46 AM)
-[2018.08.18-17.31.46:431][242]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.31.46:432][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001242s)
-[2018.08.18-17.31.46:433][242]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.31.46:433][242]LogPlayLevel: PIE: World Init took: (0.000828s)
-[2018.08.18-17.31.46:433][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.002271s)
-[2018.08.18-17.31.46:471][242]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.31.46:483][242]LogInit: FAudioDevice initialized.
-[2018.08.18-17.31.46:515][242]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.31.46:516][242]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.31.46
-[2018.08.18-17.31.46:516][242]LogWorld: Bringing up level for play took: 0.000637
-[2018.08.18-17.31.46:530][242]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure 0.085
-[2018.08.18-17.32.01:910][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.32.01:944][938]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.32.01:978][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.32.02:012][940]LogPlayLevel: Display: Destroying online subsystem :Context_24
-[2018.08.18-17.32.06:331][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-17.32.17:677][684]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.32.17:700][684]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.08.18-17.32.17:706][684]LogPlayLevel: [PlayLevel] Compiling BP_RoomBuilder before play...
-[2018.08.18-17.32.17:873][684]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (1 blueprints)
-[2018.08.18-17.32.17:874][684]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:32:17 AM)
-[2018.08.18-17.32.17:874][684]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.32.17:875][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001368s)
-[2018.08.18-17.32.17:876][684]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.32.17:876][684]LogPlayLevel: PIE: World Init took: (0.000643s)
-[2018.08.18-17.32.17:876][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.002115s)
-[2018.08.18-17.32.17:910][684]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.32.17:922][684]LogInit: FAudioDevice initialized.
-[2018.08.18-17.32.17:954][684]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.32.17:955][684]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.32.17
-[2018.08.18-17.32.17:955][684]LogWorld: Bringing up level for play took: 0.000530
-[2018.08.18-17.32.17:968][684]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.476
-[2018.08.18-17.32.31:246][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.32.31:281][153]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.32.31:319][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.32.31:365][155]LogPlayLevel: Display: Destroying online subsystem :Context_25
-[2018.08.18-17.33.13:329][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-17.33.13:417][956]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.33.13:440][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-17.33.13:440][956]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:33:13 AM)
-[2018.08.18-17.33.13:440][956]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.33.13:441][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001097s)
-[2018.08.18-17.33.13:442][956]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.33.13:442][956]LogPlayLevel: PIE: World Init took: (0.000620s)
-[2018.08.18-17.33.13:442][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001815s)
-[2018.08.18-17.33.13:481][956]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.33.13:493][956]LogInit: FAudioDevice initialized.
-[2018.08.18-17.33.13:527][956]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.33.13:528][956]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.33.13
-[2018.08.18-17.33.13:528][956]LogWorld: Bringing up level for play took: 0.000479
-[2018.08.18-17.33.13:541][956]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure 1.097
-[2018.08.18-17.33.16:343][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.33.16:379][268]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.33.16:418][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.33.16:465][269]LogPlayLevel: Display: Destroying online subsystem :Context_26
-[2018.08.18-17.33.27:471][480]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.33.27:488][480]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.08.18-17.33.27:494][480]LogPlayLevel: [PlayLevel] Compiling BP_RoomBuilder before play...
-[2018.08.18-17.33.27:666][480]LogPlayLevel: PlayLevel: Blueprint regeneration took 177 ms (1 blueprints)
-[2018.08.18-17.33.27:666][480]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:33:27 AM)
-[2018.08.18-17.33.27:666][480]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.33.27:667][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001046s)
-[2018.08.18-17.33.27:668][480]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.33.27:668][480]LogPlayLevel: PIE: World Init took: (0.000720s)
-[2018.08.18-17.33.27:668][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001865s)
-[2018.08.18-17.33.27:707][480]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.33.27:718][480]LogInit: FAudioDevice initialized.
-[2018.08.18-17.33.27:750][480]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.33.27:751][480]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.33.27
-[2018.08.18-17.33.27:751][480]LogWorld: Bringing up level for play took: 0.000600
-[2018.08.18-17.33.27:764][480]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.681
-[2018.08.18-17.33.30:235][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.33.30:272][751]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.33.30:306][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.33.30:337][753]LogPlayLevel: Display: Destroying online subsystem :Context_27
-[2018.08.18-17.33.30:808][805]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.33.30:831][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-17.33.30:831][805]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:33:30 AM)
-[2018.08.18-17.33.30:831][805]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.33.30:832][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001059s)
-[2018.08.18-17.33.30:833][805]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.33.30:833][805]LogPlayLevel: PIE: World Init took: (0.000640s)
-[2018.08.18-17.33.30:833][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001797s)
-[2018.08.18-17.33.30:869][805]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.33.30:881][805]LogInit: FAudioDevice initialized.
-[2018.08.18-17.33.30:911][805]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.33.30:912][805]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.33.30
-[2018.08.18-17.33.30:912][805]LogWorld: Bringing up level for play took: 0.000517
-[2018.08.18-17.33.30:925][805]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure 0.481
-[2018.08.18-17.33.33:363][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.33.33:399][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.33.33:441][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.33.33:489][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_28
-[2018.08.18-17.33.33:971][122]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.33.33:987][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-17.33.33:987][122]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:33:33 AM)
-[2018.08.18-17.33.33:988][122]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.33.33:989][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001069s)
-[2018.08.18-17.33.33:989][122]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.33.33:989][122]LogPlayLevel: PIE: World Init took: (0.000575s)
-[2018.08.18-17.33.33:989][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001742s)
-[2018.08.18-17.33.34:026][122]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.33.34:039][122]LogInit: FAudioDevice initialized.
-[2018.08.18-17.33.34:073][122]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.33.34:074][122]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.33.34
-[2018.08.18-17.33.34:074][122]LogWorld: Bringing up level for play took: 0.000445
-[2018.08.18-17.33.34:086][122]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.358
-[2018.08.18-17.33.39:057][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.33.39:092][674]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.33.39:128][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.33.39:174][675]LogPlayLevel: Display: Destroying online subsystem :Context_29
-[2018.08.18-17.36.12:433][393]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.36.12:451][393]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.08.18-17.36.12:458][393]LogPlayLevel: [PlayLevel] Compiling BP_RoomBuilder before play...
-[2018.08.18-17.36.12:636][393]LogPlayLevel: PlayLevel: Blueprint regeneration took 185 ms (1 blueprints)
-[2018.08.18-17.36.12:637][393]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:36:12 AM)
-[2018.08.18-17.36.12:637][393]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.36.12:638][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001070s)
-[2018.08.18-17.36.12:638][393]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.36.12:639][393]LogPlayLevel: PIE: World Init took: (0.000668s)
-[2018.08.18-17.36.12:639][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001837s)
-[2018.08.18-17.36.12:675][393]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.36.12:687][393]LogInit: FAudioDevice initialized.
-[2018.08.18-17.36.12:718][393]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.36.12:719][393]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.36.12
-[2018.08.18-17.36.12:719][393]LogWorld: Bringing up level for play took: 0.000492
-[2018.08.18-17.36.12:732][393]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure 0.288
-[2018.08.18-17.37.44:066][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.37.44:097][501]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.37.44:132][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.37.44:164][503]LogPlayLevel: Display: Destroying online subsystem :Context_30
-[2018.08.18-17.39.13:733][943]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.39.13:763][943]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.08.18-17.39.13:772][943]LogPlayLevel: [PlayLevel] Compiling BP_RoomBuilder before play...
-[2018.08.18-17.39.13:945][943]LogPlayLevel: PlayLevel: Blueprint regeneration took 181 ms (1 blueprints)
-[2018.08.18-17.39.13:945][943]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:39:13 AM)
-[2018.08.18-17.39.13:945][943]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.39.13:946][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001156s)
-[2018.08.18-17.39.13:947][943]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.39.13:947][943]LogPlayLevel: PIE: World Init took: (0.000638s)
-[2018.08.18-17.39.13:947][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001893s)
-[2018.08.18-17.39.13:985][943]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.39.13:996][943]LogInit: FAudioDevice initialized.
-[2018.08.18-17.39.14:032][943]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.39.14:033][943]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.39.14
-[2018.08.18-17.39.14:033][943]LogWorld: Bringing up level for play took: 0.000537
-[2018.08.18-17.39.14:046][943]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.398
-[2018.08.18-17.39.24:511][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.39.24:547][869]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.39.24:586][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.39.24:621][871]LogPlayLevel: Display: Destroying online subsystem :Context_31
-[2018.08.18-17.39.34:034][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-17.39.34:155][637]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.39.34:179][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-17.39.34:180][637]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:39:34 AM)
-[2018.08.18-17.39.34:180][637]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.39.34:181][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001143s)
-[2018.08.18-17.39.34:181][637]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.39.34:182][637]LogPlayLevel: PIE: World Init took: (0.000703s)
-[2018.08.18-17.39.34:182][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001951s)
-[2018.08.18-17.39.34:217][637]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.39.34:230][637]LogInit: FAudioDevice initialized.
-[2018.08.18-17.39.34:259][637]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.39.34:260][637]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.39.34
-[2018.08.18-17.39.34:260][637]LogWorld: Bringing up level for play took: 0.000490
-[2018.08.18-17.39.34:273][637]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.171
-[2018.08.18-17.39.37:067][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.39.37:105][880]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.39.37:146][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.39.37:214][881]LogPlayLevel: Display: Destroying online subsystem :Context_32
-[2018.08.18-17.39.38:939][ 33]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
-[2018.08.18-17.39.41:140][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-17.39.57:795][ 73]Cmd: TRANSACTION UNDO
-[2018.08.18-17.39.57:795][ 73]LogEditorTransaction: Undo Rotate Actors
-[2018.08.18-17.40.00:308][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-17.40.05:171][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-17.40.05:295][627]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.40.05:311][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-17.40.05:311][627]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:40:05 AM)
-[2018.08.18-17.40.05:311][627]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.40.05:312][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001056s)
-[2018.08.18-17.40.05:312][627]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.40.05:313][627]LogPlayLevel: PIE: World Init took: (0.000614s)
-[2018.08.18-17.40.05:313][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001768s)
-[2018.08.18-17.40.05:349][627]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.40.05:362][627]LogInit: FAudioDevice initialized.
-[2018.08.18-17.40.05:394][627]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.40.05:395][627]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.40.05
-[2018.08.18-17.40.05:395][627]LogWorld: Bringing up level for play took: 0.000687
-[2018.08.18-17.40.05:408][627]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure 0.964
-[2018.08.18-17.40.09:386][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.40.09:423][976]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.40.09:457][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.40.09:528][977]LogPlayLevel: Display: Destroying online subsystem :Context_33
-[2018.08.18-17.40.11:651][165]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.40.11:668][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-17.40.11:668][165]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:40:11 AM)
-[2018.08.18-17.40.11:668][165]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.40.11:669][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001159s)
-[2018.08.18-17.40.11:669][165]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.40.11:670][165]LogPlayLevel: PIE: World Init took: (0.000791s)
-[2018.08.18-17.40.11:670][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.002059s)
-[2018.08.18-17.40.11:709][165]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.40.11:721][165]LogInit: FAudioDevice initialized.
-[2018.08.18-17.40.11:753][165]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.40.11:754][165]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.40.11
-[2018.08.18-17.40.11:754][165]LogWorld: Bringing up level for play took: 0.000438
-[2018.08.18-17.40.11:767][165]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.677
-[2018.08.18-17.40.38:836][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.40.38:873][570]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.40.38:907][570]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.40.38:980][571]LogPlayLevel: Display: Destroying online subsystem :Context_34
-[2018.08.18-17.40.50:317][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-17.41.17:463][518]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.41.17:479][518]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.08.18-17.41.17:488][518]LogPlayLevel: [PlayLevel] Compiling BP_RoomBuilder before play...
-[2018.08.18-17.41.17:663][518]LogPlayLevel: PlayLevel: Blueprint regeneration took 184 ms (1 blueprints)
-[2018.08.18-17.41.17:663][518]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:41:17 AM)
-[2018.08.18-17.41.17:663][518]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.41.17:664][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001166s)
-[2018.08.18-17.41.17:665][518]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.41.17:665][518]LogPlayLevel: PIE: World Init took: (0.000627s)
-[2018.08.18-17.41.17:665][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001891s)
-[2018.08.18-17.41.17:703][518]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.41.17:715][518]LogInit: FAudioDevice initialized.
-[2018.08.18-17.41.17:748][518]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.41.17:749][518]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.41.17
-[2018.08.18-17.41.17:749][518]LogWorld: Bringing up level for play took: 0.000447
-[2018.08.18-17.41.17:762][518]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure -0.682
-[2018.08.18-17.41.29:545][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.41.29:578][773]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.41.29:616][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.41.29:650][775]LogPlayLevel: Display: Destroying online subsystem :Context_35
-[2018.08.18-17.41.34:655][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.08.18-17.41.46:276][497]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.41.46:302][497]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.08.18-17.41.46:310][497]LogPlayLevel: [PlayLevel] Compiling BP_RoomBuilder before play...
-[2018.08.18-17.41.46:481][497]LogPlayLevel: PlayLevel: Blueprint regeneration took 179 ms (1 blueprints)
-[2018.08.18-17.41.46:482][497]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:41:46 AM)
-[2018.08.18-17.41.46:482][497]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.41.46:483][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001044s)
-[2018.08.18-17.41.46:483][497]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.41.46:483][497]LogPlayLevel: PIE: World Init took: (0.000586s)
-[2018.08.18-17.41.46:483][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001726s)
-[2018.08.18-17.41.46:523][497]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.41.46:536][497]LogInit: FAudioDevice initialized.
-[2018.08.18-17.41.46:569][497]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.41.46:570][497]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.41.46
-[2018.08.18-17.41.46:570][497]LogWorld: Bringing up level for play took: 0.000645
-[2018.08.18-17.41.46:583][497]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure 0.139
-[2018.08.18-17.42.04:736][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.42.04:767][444]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.42.04:805][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.42.04:836][446]LogPlayLevel: Display: Destroying online subsystem :Context_36
-[2018.08.18-17.42.29:876][181]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Adventure_Auto51D18AFF744A2150FA66CE39FA54CE63F.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Maps/Adventure_Auto5.umap'
-[2018.08.18-17.42.29:880][181]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TextAdventure/Maps/Adventure' took 0.065
-[2018.08.18-17.42.29:880][181]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.065
-[2018.08.18-17.42.29:882][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TextAdventure/Core/BP_RoomBuilder] ([1] browsable assets)...
-[2018.08.18-17.42.29:882][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/TextAdventure/Core/BP_RoomBuilder]
-[2018.08.18-17.42.29:922][181]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomBuilder_Auto52F3B78DD43F98FA777D41793B4A130D5.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Core/BP_RoomBuilder_Auto5.uasset'
-[2018.08.18-17.42.29:924][181]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TextAdventure/Models/floorDetail_flagstonesCentral] ([1] browsable assets)...
-[2018.08.18-17.42.29:939][181]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TextAdventure/Models/floorDetail_flagstonesCentral.floorDetail_flagstonesCentral]
-[2018.08.18-17.42.29:939][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/TextAdventure/Models/floorDetail_flagstonesCentral]
-[2018.08.18-17.42.29:963][181]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/floorDetail_flagstonesCentral_Au025EDB2646571E6CD1121A8D0A67C232.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Models/floorDetail_flagstonesCentral_Auto5.uasset'
-[2018.08.18-17.42.29:965][181]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TextAdventure/Models/wall_west_solid] ([1] browsable assets)...
-[2018.08.18-17.42.29:975][181]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TextAdventure/Models/wall_west_solid.wall_west_solid]
-[2018.08.18-17.42.29:975][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/TextAdventure/Models/wall_west_solid]
-[2018.08.18-17.42.29:992][181]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/wall_west_solid_Auto552DA92BD49E6CA42337F6F908C7CA683.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Models/wall_west_solid_Auto5.uasset'
-[2018.08.18-17.42.29:994][181]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TextAdventure/Models/wall_east_solid] ([1] browsable assets)...
-[2018.08.18-17.42.30:004][181]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TextAdventure/Models/wall_east_solid.wall_east_solid]
-[2018.08.18-17.42.30:004][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/TextAdventure/Models/wall_east_solid]
-[2018.08.18-17.42.30:021][181]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/wall_east_solid_Auto5BBE1C8854F72D8EE33B1B1A489AF82CC.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Models/wall_east_solid_Auto5.uasset'
-[2018.08.18-17.42.30:022][181]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TextAdventure/Models/wall_south_solid] ([1] browsable assets)...
-[2018.08.18-17.42.30:032][181]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TextAdventure/Models/wall_south_solid.wall_south_solid]
-[2018.08.18-17.42.30:032][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/TextAdventure/Models/wall_south_solid]
-[2018.08.18-17.42.30:050][181]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/wall_south_solid_Auto521FB3485439D43B2C65107A58754FAEF.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Models/wall_south_solid_Auto5.uasset'
-[2018.08.18-17.42.30:051][181]LogFileHelpers: Auto-saving content packages took 0.170
-[2018.08.18-17.43.55:333][691]LogTemp: Repeating last play command: Selected Viewport
-[2018.08.18-17.43.55:358][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.08.18-17.43.55:358][691]PIE: New page: PIE session: Adventure (Aug 18, 2018, 9:43:55 AM)
-[2018.08.18-17.43.55:358][691]LogPlayLevel: Creating play world package: /Game/TextAdventure/Maps/UEDPIE_0_Adventure
-[2018.08.18-17.43.55:359][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001094s)
-[2018.08.18-17.43.55:360][691]LogAIModule: Creating AISystem for world Adventure
-[2018.08.18-17.43.55:360][691]LogPlayLevel: PIE: World Init took: (0.000617s)
-[2018.08.18-17.43.55:360][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TextAdventure/Maps/Adventure.Adventure to /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure (0.001819s)
-[2018.08.18-17.43.55:393][691]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.18-17.43.55:406][691]LogInit: FAudioDevice initialized.
-[2018.08.18-17.43.55:438][691]LogLoad: Game class is 'GameModeBase'
-[2018.08.18-17.43.55:439][691]LogWorld: Bringing World /Game/TextAdventure/Maps/UEDPIE_0_Adventure.Adventure up for play (max tick rate 0) at 2018.08.18-13.43.55
-[2018.08.18-17.43.55:439][691]LogWorld: Bringing up level for play took: 0.000444
-[2018.08.18-17.43.55:452][691]PIE: Play in editor start time for /Game/TextAdventure/Maps/UEDPIE_0_Adventure 1.008
-[2018.08.18-17.45.27:461][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.45.27:501][398]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.08.18-17.45.27:540][398]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.18-17.45.27:606][399]LogPlayLevel: Display: Destroying online subsystem :Context_37
-[2018.08.18-17.45.31:119][579]LogSlate: Window 'Save Content' being destroyed
-[2018.08.18-17.45.31:174][579]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomBuilder7548F1C742E5BA30A451CB8F8E369D29.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Core/BP_RoomBuilder.uasset'
-[2018.08.18-17.45.31:326][579]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/AdventureECACC77E444FC052EBE254A5310C7D3F.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Maps/Adventure.umap'
-[2018.08.18-17.45.31:363][579]LogFileHelpers: Saving map 'Adventure' took 0.177
-[2018.08.18-17.45.31:377][579]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/floorDetail_flagstonesCentral533C1BC74D154CD716A9AAA002ADA1E1.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/floorDetail_flagstonesCentral.uasset'
-[2018.08.18-17.45.31:397][579]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/wall_east_solidB2CFFF38421596C9488797A7276EB8CB.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/wall_east_solid.uasset'
-[2018.08.18-17.45.31:414][579]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/wall_south_solid53D16D934A0571608BFB92A22A6F79BB.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/wall_south_solid.uasset'
-[2018.08.18-17.45.31:430][579]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/wall_west_solid05CFAC1C4FEE76363432B28C9BB3FD81.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Content/TextAdventure/Models/wall_west_solid.uasset'
-[2018.08.18-17.50.53:249][464]LogSlate: Took 0.004900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.08.18-17.51.17:996][ 86]BlueprintLog: New page: Compile BP_RoomBuilder
-[2018.08.18-17.51.47:155][231]BlueprintLog: New page: Compile BP_RoomBuilder
-[2018.08.18-17.52.44:783][523]BlueprintLog: New page: Compile BP_RoomBuilder
-[2018.08.18-17.55.29:810][612]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Adventure_Auto6ACE2B6E441736B95721FB58EC2A6314C.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Maps/Adventure_Auto6.umap'
-[2018.08.18-17.55.29:814][612]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TextAdventure/Maps/Adventure' took 0.064
-[2018.08.18-17.55.29:814][612]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.064
-[2018.08.18-17.55.29:815][612]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TextAdventure/Core/BP_RoomBuilder] ([1] browsable assets)...
-[2018.08.18-17.55.29:815][612]OBJ SavePackage: Finished generating thumbnails for package [/Game/TextAdventure/Core/BP_RoomBuilder]
-[2018.08.18-17.55.29:858][612]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomBuilder_Auto623BA04E646735878243EECB61F791F15.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Core/BP_RoomBuilder_Auto6.uasset'
-[2018.08.18-17.55.29:859][612]LogFileHelpers: Auto-saving content packages took 0.045
-[2018.08.18-18.05.30:300][836]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Adventure_Auto78DB85003423A133FC016368657479383.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Maps/Adventure_Auto7.umap'
-[2018.08.18-18.05.30:304][836]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TextAdventure/Maps/Adventure' took 0.067
-[2018.08.18-18.05.30:304][836]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.067
-[2018.08.18-18.05.30:305][836]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TextAdventure/Core/BP_RoomBuilder] ([1] browsable assets)...
-[2018.08.18-18.05.30:305][836]OBJ SavePackage: Finished generating thumbnails for package [/Game/TextAdventure/Core/BP_RoomBuilder]
-[2018.08.18-18.05.30:344][836]LogSavePackage: Moving '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/BP_RoomBuilder_Auto71FA3B4224985DA21AFDEDDB8F98496FA.tmp' to '../../../../../../Users/Jesse/Documents/gamedev/SVADProgrammingForArtists/TextAdventure/Saved/Autosaves/Game/TextAdventure/Core/BP_RoomBuilder_Auto7.uasset'
-[2018.08.18-18.05.30:347][836]LogFileHelpers: Auto-saving content packages took 0.041
+[2018.08.19-15.15.04:871][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.19-15.15.04:871][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.19-15.15.04:888][  0]LogHAL: Display: Platform has ~ 64 GB [68622270464 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.19-15.15.04:888][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.19-15.15.04:888][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.19-15.15.04:890][  0]LogInit: Computer: SVAD-CGI-02
+[2018.08.19-15.15.04:890][  0]LogInit: User: JesseRademacher
+[2018.08.19-15.15.04:890][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.08.19-15.15.04:890][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2018.08.19-15.15.04:890][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2018.08.19-15.15.04:890][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.19-15.15.04:890][  0]LogMemory: Process Physical Memory: 101.41 MB used, 101.41 MB peak
+[2018.08.19-15.15.04:890][  0]LogMemory: Process Virtual Memory: 85.92 MB used, 85.92 MB peak
+[2018.08.19-15.15.04:890][  0]LogMemory: Physical Memory: 4463.08 MB used,  60980.22 MB free, 65443.30 MB total
+[2018.08.19-15.15.04:890][  0]LogMemory: Virtual Memory: 4651.86 MB used,  60980.22 MB free, 134217728.00 MB total
+[2018.08.19-15.15.04:969][  0]LogInit: Using OS detected language (en-US).
+[2018.08.19-15.15.04:969][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.19-15.15.04:970][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.19-15.15.05:328][  0]LogStreaming: Display: Took  0.358s to InitEngineTextLocalization.
+[2018.08.19-15.15.05:328][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.19-15.15.05:372][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.19-15.15.05:372][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.19-15.15.06:212][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.19-15.15.06:212][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.19-15.15.06:279][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2018.08.19-15.15.06:279][  0]LogD3D11RHI:       6097/0/32721 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.08.19-15.15.06:281][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.19-15.15.06:281][  0]LogD3D11RHI:       0/0/32721 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.19-15.15.06:281][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.19-15.15.06:286][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.19-15.15.06:286][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.19-15.15.06:287][  0]LogWindows: EnumDisplayDevices:
+[2018.08.19-15.15.06:287][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2018.08.19-15.15.06:287][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:1)
+[2018.08.19-15.15.06:287][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.08.19-15.15.06:288][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2018.08.19-15.15.06:288][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.08.19-15.15.06:288][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2018.08.19-15.15.06:288][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.08.19-15.15.06:288][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.08.19-15.15.06:288][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
+[2018.08.19-15.15.06:333][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.19-15.15.06:355][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.19-15.15.06:442][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (D:/SVADProgrammingForArtists/TextAdventure/Intermediate/Shaders/WorkingDirectory/11052/).
+[2018.08.19-15.15.06:442][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jesse Rademacher/AppData/Local/Temp/UnrealShaderWorkingDir/8CF62D574958C802A3B29B8A1CEBC908/'.
+[2018.08.19-15.15.06:930][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.19-15.15.06:945][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.19-15.15.06:959][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.19-15.15.06:975][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.19-15.15.06:990][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.19-15.15.07:006][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.19-15.15.07:022][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.19-15.15.07:038][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.19-15.15.07:046][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:124][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.19-15.15.07:128][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.19-15.15.07:194][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.19-15.15.07:194][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.19-15.15.07:219][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.19-15.15.07:219][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.19-15.15.07:234][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.19-15.15.07:249][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.19-15.15.07:262][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.19-15.15.07:278][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.19-15.15.07:288][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.19-15.15.07:289][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.19-15.15.07:396][  0]LogXGEController: Cleaning working directory: C:/Users/Jesse Rademacher/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.19-15.15.07:397][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.19-15.15.07:397][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.19-15.15.07:397][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.19-15.15.08:309][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.19-15.15.08:309][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2018.08.19-15.15.08:309][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/SVADProgrammingForArtists/TextAdventure/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.19-15.15.08:309][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.19-15.15.08:309][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/SVADProgrammingForArtists/TextAdventure/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.19-15.15.08:309][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.19-15.15.08:323][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.19-15.15.08:458][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jesse Rademacher/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.19-15.15.08:458][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.19-15.15.08:458][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.19-15.15.08:496][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.19-15.15.08:499][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.19-15.15.08:503][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.19-15.15.08:652][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2018.08.19-15.15.09:020][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.19-15.15.09:250][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.19-15.15.09:263][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.19-15.15.09:263][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.19-15.15.09:264][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.19-15.15.09:264][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.19-15.15.09:302][  0]LogNetVersion: TextAdventure 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4005765857)
+[2018.08.19-15.15.10:386][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.142801 seconds
+[2018.08.19-15.15.10:392][  0]LogUObjectArray: 38447 objects as part of root set at end of initial load.
+[2018.08.19-15.15.10:392][  0]LogUObjectAllocator: 6692624 out of 0 bytes used by permanent object pool.
+[2018.08.19-15.15.10:392][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.19-15.15.12:217][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.19-15.15.12:232][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.19-15.15.12:614][  0]SourceControl: Source control is disabled
+[2018.08.19-15.15.12:614][  0]SourceControl: Source control is disabled
+[2018.08.19-15.15.12:622][  0]SourceControl: Source control is disabled
+[2018.08.19-15.15.12:626][  0]SourceControl: Source control is disabled
+[2018.08.19-15.15.12:920][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.19-15.15.12:991][  0]LogOcInput: OculusInput pre-init called
+[2018.08.19-15.15.13:078][  0]LogEngine: Initializing Engine...
+[2018.08.19-15.15.13:080][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.19-15.15.13:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.19-15.15.13:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.19-15.15.13:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.19-15.15.13:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.19-15.15.13:452][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.19-15.15.13:482][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.19-15.15.13:501][  0]LogInit: XAudio2 using 'HP ZR2440w (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.19-15.15.13:537][  0]LogInit: FAudioDevice initialized.
+[2018.08.19-15.15.13:537][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.19-15.15.13:579][  0]LogDerivedDataCache: Saved boot cache 0.04s 87MB C:/Users/Jesse Rademacher/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.19-15.15.13:590][  0]LogInit: Texture streaming: Enabled
+[2018.08.19-15.15.13:612][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.19-15.15.13:631][  0]LogInit: Transaction tracking system initialized
+[2018.08.19-15.15.13:673][  0]BlueprintLog: New page: Editor Load
+[2018.08.19-15.15.13:828][  0]LocalizationService: Localization service is disabled
+[2018.08.19-15.15.14:152][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.19-15.15.14:152][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.19-15.15.14:152][  0]LogFileCache: Scanning file cache for directory 'D:/SVADProgrammingForArtists/TextAdventure/Content/' took 0.01s
+[2018.08.19-15.15.14:152][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.19-15.15.14:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.19-15.15.14:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.19-15.15.14:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.19-15.15.14:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.19-15.15.14:385][  0]SourceControl: Source control is disabled
+[2018.08.19-15.15.14:471][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.19-15.15.14:474][  0]LogSlate: Took 0.001137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.19-15.15.27:078][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.08.19-15.15.27:078][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.19-15.15.27:088][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.19-15.15.27:089][  0]Cmd: MAP LOAD FILE="D:/SVADProgrammingForArtists/TextAdventure/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.19-15.15.27:089][  0]LogEditorServer: Warning: Can't find file 'D:/SVADProgrammingForArtists/TextAdventure/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.08.19-15.15.27:089][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.19-15.15.27:253][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 163.959ms to complete.
+[2018.08.19-15.15.27:254][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.165
+[2018.08.19-15.15.27:317][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-15.15.27:325][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-15.15.27:332][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-15.15.27:341][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.19-15.15.27:355][  0]LogCollectionManager: Loaded 0 collections in 0.001390 seconds
+[2018.08.19-15.15.27:406][  0]LogFileCache: Scanning file cache for directory 'D:/SVADProgrammingForArtists/TextAdventure/Saved/Collections/' took 0.01s
+[2018.08.19-15.15.27:406][  0]LogFileCache: Scanning file cache for directory 'D:/SVADProgrammingForArtists/TextAdventure/Content/Developers/JesseRademacher/Collections/' took 0.01s
+[2018.08.19-15.15.27:406][  0]LogFileCache: Scanning file cache for directory 'D:/SVADProgrammingForArtists/TextAdventure/Content/Collections/' took 0.01s
+[2018.08.19-15.15.27:406][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.19-15.15.27:417][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2572 classes and 603 folders.
+[2018.08.19-15.15.27:426][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.19-15.15.27:528][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.19-15.15.27:538][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.08.19-15.15.27:571][  0]LogSlate: Took 0.001162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.19-15.15.27:577][  0]LogSlate: Took 0.001018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.19-15.15.27:632][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2018.08.19-15.15.27:730][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-15.15.27:747][  0]LogSlate: Window 'Tutorials' being destroyed
+[2018.08.19-15.15.27:780][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.08.19-15.15.27:780][  0]LogLoad: (Engine Initialization) Total time: 26.21 seconds
+[2018.08.19-15.15.27:780][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.19-15.15.27:812][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.19-15.15.27:836][  0]LogSlate: Took 0.001415 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.19-15.15.27:864][  1]LogAssetRegistry: Asset discovery search completed in 19.2345 seconds
+[2018.08.19-15.15.27:865][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.19-15.15.27:865][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2018.08.19-15.15.28:805][ 93]LogSlate: Took 0.000594 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.19-15.15.31:246][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.19-15.15.31:406][398]LogStaticMesh: Building static mesh SM_wall_west...
+[2018.08.19-15.15.31:424][398]LogStaticMesh: Built static mesh [0.02s] /Game/TextAdventure/Models/SM_wall_west.SM_wall_west
+[2018.08.19-15.15.31:428][398]LogStaticMesh: Building static mesh wall_south_solid...
+[2018.08.19-15.15.31:435][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-15.15.31:440][398]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/wall_south_solid.wall_south_solid
+[2018.08.19-15.15.31:443][398]LogStaticMesh: Building static mesh wall_west_solid...
+[2018.08.19-15.15.31:450][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-15.15.31:456][398]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/wall_west_solid.wall_west_solid
+[2018.08.19-15.15.31:458][398]LogStaticMesh: Building static mesh wall_east_solid...
+[2018.08.19-15.15.31:466][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-15.15.31:471][398]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/wall_east_solid.wall_east_solid
+[2018.08.19-15.15.31:474][398]LogStaticMesh: Building static mesh SM_wall_north...
+[2018.08.19-15.15.31:482][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-15.15.31:487][398]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/SM_wall_north.SM_wall_north
+[2018.08.19-15.15.31:489][398]LogStaticMesh: Building static mesh SM_wall_south...
+[2018.08.19-15.15.31:497][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-15.15.31:502][398]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/SM_wall_south.SM_wall_south
+[2018.08.19-15.15.31:507][398]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2018.08.19-15.15.31:551][398]LogStaticMesh: Building static mesh SM_wall_east...
+[2018.08.19-15.15.31:557][398]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.08.19-15.15.31:557][398]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.08.19-15.15.31:557][398]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.08.19-15.15.31:558][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-15.15.31:563][398]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/SM_wall_east.SM_wall_east
+[2018.08.19-15.15.31:566][398]LogStaticMesh: Building static mesh SM_wall_north_solid...
+[2018.08.19-15.15.31:574][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-15.15.31:580][398]LogStaticMesh: Built static mesh [0.01s] /Game/TextAdventure/Models/SM_wall_north_solid.SM_wall_north_solid
+[2018.08.19-15.15.31:599][398]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.19-15.15.31:601][398]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TextAdventure/Core/BP_RoomBuilder.BP_RoomBuilder
+[2018.08.19-15.15.32:240][398]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.08.19-15.15.33:251][398]LogSlate: Took 0.001206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.19-15.53.13:308][500]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.08.19-15.53.13:415][500]LogSlate: Window 'BP_RoomBuilder' being destroyed
+[2018.08.19-15.53.13:474][500]LogSlate: Window 'TextAdventure - Unreal Editor' being destroyed
+[2018.08.19-15.53.13:475][500]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.08.19-15.53.13:646][501]Cmd: QUIT_EDITOR
+[2018.08.19-15.53.13:675][501]LogExit: Preparing to exit.
+[2018.08.19-15.53.14:498][501]LogExit: Editor shut down
+[2018.08.19-15.53.14:499][501]LogExit: Transaction tracking system shut down
+[2018.08.19-15.53.14:891][501]LogExit: Object subsystem successfully closed.
+[2018.08.19-15.53.14:913][501]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.08.19-15.53.14:916][501]LogD3D11RHI: Shutdown
+[2018.08.19-15.53.14:916][501]LogD3D11RHI: CleanupD3DDevice
+[2018.08.19-15.53.14:919][501]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.08.19-15.53.14:953][501]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
+[2018.08.19-15.53.14:953][501]LogModuleManager: Shutting down and abandoning module MeshBuilder (610)
+[2018.08.19-15.53.14:953][501]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (608)
+[2018.08.19-15.53.14:953][501]LogModuleManager: Shutting down and abandoning module SceneOutliner (606)
+[2018.08.19-15.53.14:954][501]LogModuleManager: Shutting down and abandoning module AddContentDialog (604)
+[2018.08.19-15.53.14:954][501]LogModuleManager: Shutting down and abandoning module WidgetCarousel (603)
+[2018.08.19-15.53.14:954][501]LogModuleManager: Shutting down and abandoning module EditorWidgets (600)
+[2018.08.19-15.53.14:954][501]LogModuleManager: Shutting down and abandoning module CollectionManager (598)
+[2018.08.19-15.53.14:954][501]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.08.19-15.53.14:954][501]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.08.19-15.53.14:955][501]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.08.19-15.53.14:956][501]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.08.19-15.53.14:957][501]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.08.19-15.53.14:957][501]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.08.19-15.53.14:957][501]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.08.19-15.53.14:957][501]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.08.19-15.53.14:957][501]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.08.19-15.53.14:958][501]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.08.19-15.53.14:958][501]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.08.19-15.53.14:958][501]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.08.19-15.53.14:958][501]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.08.19-15.53.14:958][501]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.08.19-15.53.14:958][501]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.08.19-15.53.14:958][501]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.08.19-15.53.14:958][501]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.08.19-15.53.15:176][501]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.08.19-15.53.15:176][501]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.08.19-15.53.15:176][501]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.08.19-15.53.15:176][501]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.08.19-15.53.15:176][501]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.08.19-15.53.15:178][501]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.08.19-15.53.15:179][501]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.08.19-15.53.15:179][501]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.08.19-15.53.15:179][501]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.08.19-15.53.15:179][501]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.08.19-15.53.15:234][501]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.08.19-15.53.15:234][501]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.08.19-15.53.15:234][501]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.08.19-15.53.15:235][501]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.08.19-15.53.15:235][501]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.08.19-15.53.15:235][501]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.08.19-15.53.15:235][501]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.08.19-15.53.15:235][501]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.08.19-15.53.15:236][501]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.08.19-15.53.15:236][501]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.08.19-15.53.15:240][501]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.08.19-15.53.15:240][501]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.08.19-15.53.15:240][501]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.08.19-15.53.15:240][501]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.08.19-15.53.15:241][501]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.08.19-15.53.15:326][501]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.08.19-15.53.15:326][501]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.08.19-15.53.15:326][501]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.08.19-15.53.15:326][501]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.08.19-15.53.15:326][501]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.08.19-15.53.15:326][501]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.08.19-15.53.15:326][501]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.08.19-15.53.15:327][501]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.08.19-15.53.15:327][501]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.08.19-15.53.15:327][501]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.08.19-15.53.15:327][501]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.08.19-15.53.15:327][501]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.08.19-15.53.15:327][501]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.08.19-15.53.15:327][501]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.08.19-15.53.15:328][501]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.08.19-15.53.15:328][501]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.08.19-15.53.15:328][501]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.08.19-15.53.15:328][501]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.08.19-15.53.15:331][501]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.08.19-15.53.15:332][501]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.08.19-15.53.15:333][501]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.08.19-15.53.15:433][501]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.08.19-15.53.15:534][501]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.08.19-15.53.15:534][501]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.08.19-15.53.15:535][501]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.08.19-15.53.15:535][501]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.08.19-15.53.15:535][501]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.08.19-15.53.15:535][501]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.08.19-15.53.15:535][501]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.08.19-15.53.15:536][501]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.08.19-15.53.15:536][501]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.08.19-15.53.15:536][501]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.08.19-15.53.15:536][501]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.08.19-15.53.15:536][501]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.08.19-15.53.15:537][501]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.08.19-15.53.15:537][501]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.08.19-15.53.15:537][501]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.08.19-15.53.15:537][501]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.08.19-15.53.15:537][501]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.08.19-15.53.15:537][501]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.08.19-15.53.15:539][501]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.08.19-15.53.15:545][501]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.08.19-15.53.15:545][501]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.08.19-15.53.15:545][501]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.08.19-15.53.15:545][501]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.08.19-15.53.15:545][501]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.08.19-15.53.15:545][501]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.08.19-15.53.15:545][501]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.08.19-15.53.15:545][501]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.08.19-15.53.15:546][501]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.08.19-15.53.15:546][501]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.08.19-15.53.15:546][501]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.08.19-15.53.15:546][501]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.08.19-15.53.15:546][501]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.08.19-15.53.15:546][501]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.08.19-15.53.15:546][501]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.08.19-15.53.15:546][501]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.08.19-15.53.15:548][501]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.08.19-15.53.15:548][501]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.08.19-15.53.15:548][501]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.08.19-15.53.15:548][501]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.08.19-15.53.15:549][501]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.08.19-15.53.15:550][501]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.08.19-15.53.15:550][501]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.08.19-15.53.15:550][501]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.08.19-15.53.15:550][501]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.08.19-15.53.15:550][501]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.08.19-15.53.15:550][501]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.08.19-15.53.15:550][501]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.08.19-15.53.15:551][501]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.08.19-15.53.15:574][501]LogDerivedDataCache: Shutdown
+[2018.08.19-15.53.15:574][501]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.08.19-15.53.15:574][501]LogXGEController: Cleaning working directory: C:/Users/Jesse Rademacher/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.19-15.53.15:574][501]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.08.19-15.53.15:574][501]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.08.19-15.53.15:574][501]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.08.19-15.53.15:575][501]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.08.19-15.53.15:576][501]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.08.19-15.53.15:576][501]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.08.19-15.53.15:578][501]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.08.19-15.53.15:578][501]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.08.19-15.53.15:584][501]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.08.19-15.53.15:585][501]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.08.19-15.53.15:585][501]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.08.19-15.53.15:594][501]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.08.19-15.53.15:594][501]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.08.19-15.53.15:594][501]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEE8D7E73-46F1-98CB-09E4-548AD03FF3C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=4b48506341c9523a0701f1b13e28d8d7%7C7780d9290ce54e6a94d82f44aa0cf112%7C97a4180d-cce7-48fd-ad40-cd3fb9d73039&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.08.19-15.53.15:609][501]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.08.19-15.53.15:610][501]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.08.19-15.53.15:610][501]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.08.19-15.53.15:612][501]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.08.19-15.53.15:620][501]LogExit: Exiting.
+[2018.08.19-15.53.15:629][501]Log file closed, 08/19/18 11:53:15
